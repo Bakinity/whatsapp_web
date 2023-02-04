@@ -1,8 +1,9 @@
+import { Header } from "antd/es/layout/layout";
 import React from "react";
 import "./style.css";
 
 const Index = () => {
-  return <div>Header</div>;
+  return <Header className='BackHeader' />;
 };
 
 export default Index;
