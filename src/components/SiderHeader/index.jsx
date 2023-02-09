@@ -1,29 +1,49 @@
 import { Header } from "antd/es/layout/layout";
-import { Space } from "antd";
+import { MdGroups, MdChat, MdMoreVert } from "react-icons/md";
+import { RxAvatar } from "react-icons/rx";
+import { TbCircleDashed } from "react-icons/tb";
+import { Button, Space } from "antd";
 import React from "react";
 import "./style.css";
 
 const Index = () => {
   return (
     <Header className='SiderHeader'>
-      <button className='avatarBTN'></button>
+      <Button
+        className='RxAvatarBTN'
+        type='text'
+        icon={<RxAvatar className='RxAvatarICN' />}
+        shape={"circle"}
+      ></Button>
 
-      <Space>
-        <button className='siderHeaderRBTN'>
-          <img src='' alt='team' className='siderHeaderIMG'></img>
-        </button>
+      <Space className='Space'>
+        <Button
+          className='rightBTNS'
+          type='text'
+          icon={<MdGroups className='rightICNS' />}
+          shape={"circle"}
+        ></Button>
 
-        <button className='siderHeaderRBTN'>
-          <img src='' alt='status' className='siderHeaderIMG'></img>
-        </button>
+        <Button
+          className='rightBTNS'
+          type='text'
+          icon={<TbCircleDashed className='rightICNS' />}
+          shape={"circle"}
+        ></Button>
 
-        <button className='siderHeaderRBTN'>
-          <img src='' alt='chat' className='iconChatIMG'></img>
-        </button>
+        <Button
+          className='rightBTNS'
+          type='text'
+          icon={<MdChat className='rightICNS' />}
+          shape={"circle"}
+        ></Button>
 
-        <button className='siderHeaderRBTN'>
-          <img src='' alt='more' className='siderHeaderIMG'></img>
-        </button>
+        <Button
+          className='rightBTNS'
+          type='text'
+          icon={<MdMoreVert className='rightICNS' />}
+          shape={"circle"}
+        ></Button>
       </Space>
     </Header>
   );

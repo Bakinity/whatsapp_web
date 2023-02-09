@@ -1,5 +1,32 @@
 .SiderHeader{
+  padding: 10px 5px !important;
   width: 100%;
   background-color:rgb(240, 242, 245) !important;
   height: 64px !important;
+}
+
+.RxAvatarBTN{
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 0 !important;
+}
+
+.RxAvatarICN{
+  width: 32px;
+  height: 32px;
+}
+
+.rightBTNS{
+  border: none !important;
+  margin: 0 !important;
+}
+
+.rightICNS{
+  width: 20px;
+  height: 20px;
+}
+
+.Space{
+  margin-top: -5px !important;
+  float: right; 
 }

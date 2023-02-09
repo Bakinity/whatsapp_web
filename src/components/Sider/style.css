@@ -1,61 +1,27 @@
-.avatarBTN{
-  padding: 0;
-  margin: 0;
-  float: left;
-  text-align: center;
-  cursor: pointer;
-  width: 30px;
-  height: 30px;
-  border: none;
-  border-radius: 50%;
+.Header{
+  line-height: 0 !important;
+  background-color: rgb(255, 255, 255) !important;
+  padding: 10px 10px !important;
 }
 
-.siderHeaderRBTN{
-  background-color: transparent;
-  padding: 0;
-  margin: 0;
-  float: right;
-  text-align: center;
-  cursor: pointer;
-  width: 30px;
-  height: 30px;
-  border: none;
-  border-radius: 50%;
-}
-
-.siderChatSearchBTN{
-  margin-right: 10px;
-  padding: 0;
-  cursor: pointer;
-  border: none;
-}
-
-.siderHeaderIMG{
-  border-radius: 50%;
-  border: 0;
-  appearance: none;
-}
-
-.iconChatIMG{
-  border: 0;
-  appearance: none;
-}
-
-.siderChatSearch{
-  background: #f0f2f5 !important;
-  border: none;
-  outline: none;
-  float: left;
+.searchInput{
   width: 90%;
-}
-
-.prefixSearch{
-  margin-top: 3px;
   border: none;
-  background: #f0f2f5;
-
+  background-color: rgb(240, 242, 245);
 }
 
-.siderDivider{
-  margin: 0;
+.filterBTN{
+  float: right;
+  padding: 0;
+  text-decoration: none;
+}
+
+.filterICN{
+  width: 20px;
+  height: 20px;
+}
+
+.divider{
+  margin-top: 10px;
+  width: 100px;
 }
